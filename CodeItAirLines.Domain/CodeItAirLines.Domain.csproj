@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeItAirLines.CrossCutting\CodeItAirLines.CrossCutting.csproj">
+      <Project>{F3D6B4D1-3180-4524-8E08-5325B2986047}</Project>
+      <Name>CodeItAirLines.CrossCutting</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

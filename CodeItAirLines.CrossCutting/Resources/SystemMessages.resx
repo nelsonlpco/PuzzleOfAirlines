@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="SelectTheDriver" xml:space="preserve">
+       <value>Selecione o motorista:</value> 
+    </data>
+    GetDriverAndPassenger
+    <data name="SelectThePassenger" xml:space="preserve">
+       <value>Selecione o passageiro:</value> 
+    </data>
+    <data name="Winner" xml:space="preserve">
+       <value>Parabéns você venceu!</value> 
+    </data>
+    <data name="Airplane" xml:space="preserve">
+       <value>Avião.</value> 
+    </data>
+    <data name="DepartureGate" xml:space="preserve">
+       <value>Portão de embarque</value> 
+    </data>
+    <data name="TryAgain" xml:space="preserve">
+       <value>Tentar de novo ? s / n</value> 
+    </data>
+    <data name="None" xml:space="preserve">
+       <value>Ninguem</value> 
+    </data>
+    <data name="Pilot" xml:space="preserve">
+       <value>Piloto</value> 
+    </data>
+    <data name="CabinChief" xml:space="preserve">
+       <value>Chefe de Cabine</value> 
+    </data>
+    <data name="FlightOfficer" xml:space="preserve">
+       <value>Oficial de voo</value> 
+    </data>
+    <data name="Stewardess" xml:space="preserve">
+       <value>Aeromoça</value> 
+    </data>
+    <data name="PoliceOfficer" xml:space="preserve">
+       <value>Policial</value> 
+    </data>
+    <data name="Prisoner" xml:space="preserve">
+       <value>Prisioneiro</value> 
+    </data>
+    <data name="PressKey" xml:space="preserve">
+       <value>Para continuer pressione um tecla...</value> 
+    </data>
+    <data name="AppName" xml:space="preserve">
+       <value>CodeIt Airlines</value> 
+    </data>
+    <data name="ProblemenDescription" xml:space="preserve">
+       <value>
+          A CodeIT Airlines é uma empresa de aviação que opera rotas internacionais a partir de Maringá.\n
+          Cada voo é tripulado por seis elementos, sendo que estes se dividem em dois grupos: a tripulação
+          técnica e a tripulação de cabine. A tripulação técnica é constituída pelo piloto e dois oficiais. A
+          tripulação de cabine é constituída pelo chefe de serviço de voo e duas comissárias.
+           
+          O transporte dos tripulantes entre o terminal e o avião é efetuado através de um Smart Fortwo, que
+          é um veículo que leva apenas duas pessoas. Por política da empresa, apenas o piloto e o chefe de
+          serviço de voo podem dirigir este veículo. É também política da empresa que nenhum dos oficiais
+          pode ficar sozinho com o chefe de serviço de bordo, e nem nenhuma das comissárias pode ficar
+          sozinha com o piloto.
+           
+          No terminal de embarque estão os seis tripulantes e ainda um policial junto com um presidiário.
+          Estes oito elementos terão que embarcar segundo as regras descritas acima. A empresa não coloca
+          nenhum limite para o número de viagens entre o terminal e o avião.
+           
+          Por motivos de segurança o presidiário não pode ficar sozinho em momento algum com os
+          tripulantes sem a presença do policial, nem no terminal e nem no avião. De forma a facilitar o
+          processo, a empresa autorizou que o policial pudesse dirigir o veículo também. 
+       </value> 
+    </data>
+
+</root>
