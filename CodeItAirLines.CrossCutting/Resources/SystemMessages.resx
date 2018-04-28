@@ -43,28 +43,28 @@
        <value>Tentar de novo ? s / n</value> 
     </data>
     <data name="None" xml:space="preserve">
-       <value>Ninguem</value> 
+       <value>Ninguém</value> 
     </data>
     <data name="Pilot" xml:space="preserve">
        <value>Piloto</value> 
     </data>
     <data name="CabinChief" xml:space="preserve">
-       <value>Chefe de Cabine</value> 
+       <value>Chefe de Serviço de Voo</value> 
     </data>
     <data name="FlightOfficer" xml:space="preserve">
        <value>Oficial de voo</value> 
     </data>
     <data name="Stewardess" xml:space="preserve">
-       <value>Aeromoça</value> 
+       <value>Comisária de Voo</value> 
     </data>
     <data name="PoliceOfficer" xml:space="preserve">
        <value>Policial</value> 
     </data>
     <data name="Prisoner" xml:space="preserve">
-       <value>Prisioneiro</value> 
+       <value>Presidiário</value> 
     </data>
     <data name="PressKey" xml:space="preserve">
-       <value>Para continuer pressione um tecla...</value> 
+       <value>Para continuar pressione espaço...</value> 
     </data>
     <data name="AppName" xml:space="preserve">
        <value>CodeIt Airlines</value> 

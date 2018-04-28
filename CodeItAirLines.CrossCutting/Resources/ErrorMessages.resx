@@ -30,15 +30,15 @@
        <value>É necessário informar um motorista.</value> 
     </data>
     <data name="StewardessesNotAloneWithPilot" xml:space="preserve">
-       <value>Uma Comissaria de bordo não deve ficar sozinha com o piloto.</value> 
+       <value>Uma Comissária de Bordo não deve ficar sozinha com o Piloto.</value> 
     </data>
     <data name="FlightOfficersNotAloneWithCabinChief" xml:space="preserve">
-       <value>Um Oficial de voo não deve ficar sozinho com o chefe de cabine.</value> 
+       <value>Um Oficial de voo não deve ficar sozinho com o Chefe de Cabine.</value> 
     </data>
     <data name="PrisonerNotAloneWithPassengers" xml:space="preserve">
        <value>O prisioneiro não deve ficar sozinho com os passageiros sem a presença do policial.</value> 
     </data>
     <data name="InvalidResponse" xml:space="preserve">
-       <value>Por favor informe um número referente as opções na lista.</value> 
+       <value>Por favor informe um número referente as opções da lista.</value> 
     </data>
 </root>
