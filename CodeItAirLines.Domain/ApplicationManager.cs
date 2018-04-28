@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using CodeItAirLines.CrossCutting.Notificators;
+﻿using CodeItAirLines.CrossCutting.Notificators;
 using CodeItAirLines.Domain.BoardingAreas;
 using CodeItAirLines.Domain.Passengers;
 using CodeItAirLines.Domain.Rules;
 using CodeItAirLines.Domain.Veicles;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CodeItAirLines.Domain
 {
@@ -76,7 +76,11 @@ namespace CodeItAirLines.Domain
             AddErrors(_smarthFortwo.GetErrors());
 
             if (IsValid())
+            {
                 _smarthFortwo.GoToAirplane();
+                RulesPerform();
+                AddErrors(_smarthFortwo.GetErrors());
+            }
         }
 
         public void MoveToAirplaneToDepartureGate(EPassengerType driverType, EPassengerType passengerType)
@@ -91,7 +95,11 @@ namespace CodeItAirLines.Domain
             AddErrors(_smarthFortwo.GetErrors());
 
             if (IsValid())
+            {
                 _smarthFortwo.GoToDepartureGate();
+                RulesPerform();
+                AddErrors(_smarthFortwo.GetErrors());
+            }
         }
 
         public bool GameOver() => !IsValid() || _airplane.GetBoardingAreaManager().CountPassengers() == 8;
